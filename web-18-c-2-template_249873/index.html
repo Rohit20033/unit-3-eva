@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #navbar{
+        display: flex;
+        width: 100%;
+        height: 80px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        justify-content: end;
+       
+        
+        
+        
+      }
+      #navbar>div{
+        display: flex;
+         width: 7%;
+         height: 100%;
+         
+         justify-content: center;
+         align-items: center;
+         
+         
+      }
+      #menu{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        margin-top: 50px;
+
+      }
+      #menu>div{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      img{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+        height: 180px;
+      }
+      h1{
+        text-align: center;
+      }
+      h3{
+        text-align: center;
+      }
+      #add_to_bucket{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        margin-top: 29px;
+      }
+    </style>
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <!--Add navbar divs here-->
+        <div>Log in</div>
+        <div>Sign up</div>
+        <div>Products</div>
+        <a href="bucket.html"><div>Bucket</div></a>
+      <!-- Link to bucket.html -->
+      <div id="coffee_count">
+        <!--Show total number of coffee added to bucket here, do not add anything only Total count. Not even "Count - 5" but like this "5" -->
+      </div>
+    </div>
+
+    <div id="menu">
+      <!--Show coffee list here in grid format-->
+      <!-- add an add to bucket button to each item, give it HTML id as 'add_to_bucket' -->
+    </div>
+  </body>
+</html>
+<script src="/unit-3-eva/web-18-c-2-template_249873/index.js">
+
+</script>
